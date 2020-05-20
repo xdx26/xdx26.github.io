@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>记录一次Ubuntu16.04安装部署docker | Xdx的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。 系统环境:ubuntu 16.04 安装docker环境首先修改apt源我把我使用的源分享给大家,亲测可用,修改source.list文件 12$sudo mv &#x2F;etc&#x2F;ap">
+  <meta name="description" content="Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。 系统环境:ubuntu 16.04">
 <meta property="og:type" content="article">
 <meta property="og:title" content="记录一次Ubuntu16.04安装部署docker">
 <meta property="og:url" content="http://yoursite.com/2020/05/18/docker_install/index.html">
 <meta property="og:site_name" content="Xdx的博客">
-<meta property="og:description" content="Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。 系统环境:ubuntu 16.04 安装docker环境首先修改apt源我把我使用的源分享给大家,亲测可用,修改source.list文件 12$sudo mv &#x2F;etc&#x2F;ap">
+<meta property="og:description" content="Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。 系统环境:ubuntu 16.04">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-05-18T07:56:04.000Z">
-<meta property="article:modified_time" content="2020-05-19T14:07:58.560Z">
+<meta property="article:modified_time" content="2020-05-20T06:13:36.246Z">
 <meta property="article:author" content="52xdx">
 <meta property="article:tag" content="docker">
 <meta name="twitter:card" content="summary">
@@ -173,6 +173,8 @@
       
         <p>Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。</p>
 <p>系统环境:ubuntu 16.04</p>
+<a id="more"></a>
+
 <h2 id="安装docker环境"><a href="#安装docker环境" class="headerlink" title="安装docker环境"></a>安装docker环境</h2><h3 id="首先修改apt源"><a href="#首先修改apt源" class="headerlink" title="首先修改apt源"></a>首先修改apt源</h3><p>我把我使用的源分享给大家,亲测可用,修改source.list文件</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$sudo</span> mv /etc/apt/source.list /etc/apt/source.list.bak  //备份原来的apt源 </span><br><span class="line"><span class="variable">$sudo</span> vim /etc/apt/source.list</span><br></pre></td></tr></table></figure>
 
